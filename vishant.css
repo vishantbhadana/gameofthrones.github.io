@@ -16,7 +16,7 @@ body{
     height: 100vh;
     background-image: url(0.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
 }
 .container{
@@ -328,7 +328,7 @@ form .btn2{
 @media only screen and (max-width: 600px){
     /* Header */
     #header {
-        background-image: url(images/phone-background.png);
+        background-image: url(0.jpg);
         height: auto;
     }
     .header-text {
