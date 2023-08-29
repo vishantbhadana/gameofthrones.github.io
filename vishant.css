@@ -16,7 +16,7 @@ body{
     height: 100vh;
     background-image: url(0.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
 }
 .container{
@@ -334,8 +334,10 @@ nav .fas{
     #header{
         background-image: url(100.jpg);
         background-size: cover;
-        background-position: center;
+        background-position: center center;
         background-attachment: fixed;
+        height: 100vh; /* Set the header height to the full viewport height */
+    
     }
     .header-text{
         margin-top: 20%;
