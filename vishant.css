@@ -336,7 +336,7 @@ nav .fas{
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-        height: auto;
+        background-height: auto;
         min-height: 100vh; /* Set the header height to the full viewport height */
     
     }
